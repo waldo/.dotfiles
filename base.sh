@@ -1,4 +1,5 @@
-source ~/.dotfiles/path.sh
+source ~/.dotfiles/env.sh
+~/.dotfiles/refs.sh
 
 source ~/.dotfiles/tab.sh
 source ~/.dotfiles/less.sh
