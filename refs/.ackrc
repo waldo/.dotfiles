@@ -1,0 +1,5 @@
+--nobinary
+--type-set=bin=.pdf,.csv
+--nobin
+--ignore-dir=.git
+--type-set=erb=.erb

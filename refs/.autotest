@@ -1,0 +1,16 @@
+# require gems
+require 'autotest/fsevent'
+require 'autotest/growl'
+
+Autotest::Growl::image_dir = File.join(ENV['HOME'], '.autotest-growl')
+Autotest::Growl::hide_label = true
+Autotest::Growl::show_modified_files = true
+
+# tell autotest to ignore directories
+Autotest.add_hook :initialize do |autotest|
+  %w{ .git .svn .hg .DS_Store ._* vendor *.log log ui }.each do |exception|
+    autotest.add_exception( exception )
+  end
+
+  false
+end

@@ -1,0 +1,11 @@
+[core]
+	editor = subl -w
+	excludesfile = ~/.gitignore_global
+[user]
+	name = Waldo
+	email = ben.walsham@meltingwaldo.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto

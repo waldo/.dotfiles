@@ -1,0 +1,15 @@
+# Mercurial configuration file.
+[ui]
+username = Ben Walsham <ben.walsham@meltingwaldo.com>
+[extensions]
+hgext.extdiff =
+hgext.bookmarks =
+hggit = $SCRIPTS_HOME/hg_plugins/hg-git/hggit
+[extdiff]
+# add new command called meld, runs meld (no need to name twice)
+cmd.meld =
+cmd.filemerge = opendiff_filemerge.sh
+[extensions]
+mq =
+hgshelve=$SCRIPTS_HOME/hg_plugins/hgshelve/hgshelve.py
+color =
