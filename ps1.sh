@@ -16,4 +16,4 @@ format_seconds() { # convert integer seconds to HH:MM:SS
   sed 's/^\(00:\)*//;s/^0//' ; }
 
 # set the PS1 variable
-PS1="\[\033[G\]\[\e]0;\w\a\]\n\[\e[32m\]\u@\h:\[\e[33m\]\w\[\e[0m\] \$(__git_ps1)\[\e[0;0m\] \e[1;32m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0;0m\] \e[0;36m\](last: \${format_seconds timer_show})\[\e[0;0m\]\n"
+PS1="\[\033[G\]\[\e]0;\w\a\]\n\[\e[32m\]\u@\h:\[\e[33m\]\w\[\e[0m\] \$(__git_ps1)\[\e[0;0m\] \e[1;32m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0;0m\] \e[0;36m\](last: \$(format_seconds timer_show))\[\e[0;0m\]\n"
