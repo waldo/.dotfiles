@@ -36,6 +36,7 @@ make-completion-wrapper _git _git_checkout_mine git checkout; complete -o bashde
 make-completion-wrapper _git _git_branch_mine git branch; complete -o bashdefault -o default -o nospace -F _git_branch_mine gb
 make-completion-wrapper _git _git_push_mine git push; complete -o bashdefault -o default -o nospace -F _git_push_mine push
 make-completion-wrapper _git _git_pull_mine git pull; complete -o bashdefault -o default -o nospace -F _git_pull_mine pull
+make-completion-wrapper _git _git_delete_branch_mine git branch -d; complete -o bashdefault -o default -o nospace -F _git_delete_branch_mine delete
 
 export GIT_PS1_SHOWDIRTYSTATE=true # '*' for unstaged changes, '+' for staged
 export GIT_PS1_SHOWSTASHSTATE=true # '$' if smth is stashed
