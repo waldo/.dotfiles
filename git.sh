@@ -29,6 +29,8 @@ alias pull="git pull "
 alias gcl="git clone "
 alias rebase="git rebase "
 alias stash="git stash "
+source ~/.dotfiles/delete_branch.sh
+alias delete="delete_branch "
 
 make-completion-wrapper _git _git_checkout_mine git checkout; complete -o bashdefault -o default -o nospace -F _git_checkout_mine co
 make-completion-wrapper _git _git_branch_mine git branch; complete -o bashdefault -o default -o nospace -F _git_branch_mine gb
