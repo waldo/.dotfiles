@@ -9,3 +9,5 @@
 	status = auto
 	branch = auto
 	ui = auto
+[branch]
+	autosetuprebase = always
