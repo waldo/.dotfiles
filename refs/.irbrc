@@ -1,6 +1,6 @@
 require "rubygems"
 require "irb/completion"
-if ENV.include?("RAILS_ENV")
+if ENV.include?("RAILS_ENV") || defined?(Rails)
   $: << "~/.awesome_print"
 end
 require "awesome_print"
