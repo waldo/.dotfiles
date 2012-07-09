@@ -32,3 +32,7 @@ begin
 rescue LoadError => err
   puts "no awesome_print :("
 end
+
+Pry.commands.alias_command 'c', 'continue'
+Pry.commands.alias_command 's', 'step'
+Pry.commands.alias_command 'n', 'next'
