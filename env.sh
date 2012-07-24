@@ -1,7 +1,7 @@
 export LC_CTYPE=en_US.UTF-8
 export CLICOLOR=true
 
-export EDITOR="subl -w"
+export EDITOR="mvim"
 export HISTSIZE=250000
 export PROMPT_COMMAND="history -a"
 
