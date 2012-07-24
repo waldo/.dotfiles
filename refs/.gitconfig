@@ -1,5 +1,5 @@
 [core]
-	editor = subl -w
+	editor = mvim -f
 	excludesfile = ~/.gitignore_global
 [user]
 	name = Waldo
