@@ -8,5 +8,5 @@ source ~/.dotfiles/git.sh
 source ~/.dotfiles/rails.sh
 source ~/.dotfiles/ruby.sh
 
-source ~/.dotfiles/rvm.sh
+source ~/.dotfiles/rbenv.sh
 source ~/.dotfiles/ps1.sh
