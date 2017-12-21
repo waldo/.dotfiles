@@ -1,0 +1,1 @@
+cp () { command cp -i "$@" ; }
