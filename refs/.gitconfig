@@ -1,5 +1,5 @@
 [core]
-	editor = subl --wait
+	editor = atom --wait
 	excludesfile = ~/.gitignore_global
 [user]
 	name = Waldo
