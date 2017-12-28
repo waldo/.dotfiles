@@ -2,7 +2,6 @@ source ~/.dotfiles/env.sh
 ~/.dotfiles/refs.sh
 source ~/.dotfiles/homebrew.sh
 
-source ~/.dotfiles/tab.sh
 source ~/.dotfiles/less.sh
 source ~/.dotfiles/git.sh
 source ~/.dotfiles/rails.sh
