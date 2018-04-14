@@ -1,5 +1,5 @@
 AwesomePrint.defaults = {
   :indent => 2,
   :limit => 50,
-  :raw => true
+  :raw => false
 }
