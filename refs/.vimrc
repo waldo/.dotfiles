@@ -1,25 +1,6 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-commentary'
-Bundle 'kien/ctrlp.vim'
-" vim-scripts repos
-Bundle 'ack.vim'
-Bundle 'camelcasemotion'
-Bundle 'YankRing.vim'
-" language specific bundles
-Bundle 'waldo/Specky'
-" colour
-Bundle 'Mustang2'
-:colorscheme mustang
-
 filetype plugin indent on
 
 " some defaults
