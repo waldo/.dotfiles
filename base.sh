@@ -3,6 +3,7 @@ source ~/.dotfiles/env.sh
 source ~/.dotfiles/homebrew.sh
 
 source ~/.dotfiles/less.sh
+source ~/.dotfiles/complete_alias.sh
 source ~/.dotfiles/git.sh
 source ~/.dotfiles/rails.sh
 source ~/.dotfiles/ruby.sh
