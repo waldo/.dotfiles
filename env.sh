@@ -2,7 +2,8 @@ export LC_CTYPE=en_US.UTF-8
 export CLICOLOR=true
 
 export EDITOR="atom --wait"
-export HISTSIZE=250000
+export HISTSIZE=100000
+export HISTFILESIZE=250000
 export PROMPT_COMMAND="history -a"
 
 export JAVA_HOME=/usr
