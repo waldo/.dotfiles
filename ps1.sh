@@ -8,7 +8,7 @@ function timer_stop {
 }
 
 trap 'timer_start' DEBUG
-PROMPT_COMMAND=timer_stop
+PROMPT_COMMAND="timer_stop;$PROMPT_COMMAND"
 
 format_seconds() { # convert integer seconds to HH:MM:SS
   printf "%02d:%02d:%02d" \
