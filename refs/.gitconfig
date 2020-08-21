@@ -2,8 +2,8 @@
 	editor = code --wait
 	excludesfile = ~/.gitignore_global
 [user]
-	name = Waldo
-	email = ben.walsham@meltingwaldo.com
+	email = ben.w@cabinetsbycomputer.com
+	name = Benjamin Walsham
 [color]
 	diff = auto
 	status = auto
