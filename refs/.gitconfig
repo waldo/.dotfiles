@@ -13,3 +13,4 @@
 	autosetuprebase = always
 [push]
 	default = upstream
+	followTags = true
