@@ -1,7 +1,7 @@
 # Aliases
 alias ga="git add "
 alias push="git push "
-alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %an)%Creset' --abbrev-commit --date=relative -n10 "
+alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %an)%Creset' --abbrev=8 --date=relative -n10 "
 alias gs="git status "
 alias gd="git diff "
 alias gc="git commit "
