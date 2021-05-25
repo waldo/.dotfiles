@@ -12,6 +12,7 @@ alias pull="git pull "
 alias clone="git clone "
 alias rebase="git rebase "
 alias stash="git stash "
+alias resetcl="git reset HEAD --hard; git clean -fd "
 source ~/.dotfiles/delete_branch.sh
 alias delete="delete_branch "
 
@@ -24,3 +25,5 @@ complete -F _complete_alias delete
 export GIT_PS1_SHOWDIRTYSTATE=true # '*' for unstaged changes, '+' for staged
 export GIT_PS1_SHOWSTASHSTATE=true # '$' if smth is stashed
 export GIT_PS1_SHOWUNTRACKEDFILES=true # '%' if un-tracked files
+export GIT_PS1_SHOWCOLORHINTS=true
+export GIT_PS1_SHOWUPSTREAM="auto"

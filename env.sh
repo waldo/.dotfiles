@@ -10,4 +10,4 @@ PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 export JAVA_HOME=/usr
 export SCRIPTS_HOME=~/proj/scripts
 
-export PATH=/usr/local/bin:~/bin:$SCRIPTS_HOME:$PATH
+export PATH=/usr/local/bin:~/bin:/home/linuxbrew/.linuxbrew/bin/:$SCRIPTS_HOME:$PATH
