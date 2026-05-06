@@ -13,6 +13,9 @@ alias clone="git clone "
 alias rebase="git rebase "
 alias stash="git stash "
 alias resetcl="git reset HEAD --hard; git clean -fd "
+alias restore="git restore "
+alias pop="git reset --soft HEAD^1; git restore --staged * "
+
 source ~/.dotfiles/delete_branch.sh
 alias delete="delete_branch "
 
