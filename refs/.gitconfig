@@ -14,5 +14,6 @@
 [push]
 	default = upstream
 	followTags = true
+	autoSetupRemote = true
 [init]
 	defaultBranch = main
